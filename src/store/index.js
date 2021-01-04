@@ -1,12 +1,10 @@
 import { createStore } from 'vuex';
+import author from './authorQuote';
+import random from './randomQuote';
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  },
+    author,
+    random
+  }
 });
